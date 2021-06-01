@@ -1,0 +1,92 @@
+@font-face {
+  src: url("../assets/BebasNeue-Bold.ttf");
+  font-family: bebasneue-bold;
+}
+@font-face {
+  src: url("../assets/Poppins-Regular.ttf");
+  font-family: poppins-regular;
+}
+@font-face {
+  src: url("../assets/Montserrat-Regular.ttf");
+  font-family: montserrat-regular;
+}
+.coursedetails-content-parent-container {
+  padding-top: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.coursedetails-content-text-container {
+  width: 65%;
+  padding-left: 60px;
+}
+.coursedetails-content-left-container {
+  padding-bottom: 50px;
+}
+.coursedetails-content-heading-container {
+  padding-bottom: 35px;
+}
+.coursedetails-content-heading1 {
+  color: #fff;
+  font-family: bebasneue-bold;
+}
+.coursedetails-content-heading2 {
+  color: #ff4d15;
+  font-family: bebasneue-bold;
+}
+.coursedetails-content-para {
+  color: #a7a7a7;
+  width: 90%;
+  padding-bottom: 50px;
+  font-family: poppins-regular;
+  font-size: 14px;
+}
+.coursedetails-content-section-parent {
+  width: 25%;
+}
+.coursedetails-section-heading-container {
+  padding-bottom: 35px;
+}
+.coursedetails-section-heading-text {
+  color: #fff;
+  font-family: bebasneue-bold;
+}
+.coursedetails-section-list-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.coursedetails-section-circle-list {
+  height: 7px;
+  width: 7px;
+  border-radius: 50%;
+  background-color: #ff4d15;
+  margin-right: 7px;
+}
+.coursedetails-section-list-text {
+  color: #fff;
+  font-family: montserrat-regular;
+  font-size: 15px;
+}
+@media screen and (max-width: 960px) {
+  .coursedetails-content-text-container {
+    padding-left: 30px;
+  }
+  .coursedetails-section-list-text {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .coursedetails-content-section-parent {
+    width: 35%;
+    display: flex;
+    justify-content: center;
+  }
+  .coursedetails-content-text-container {
+    width: 100%;
+  }
+  .coursedetails-content-para {
+    width: 95%;
+    font-size: 12px;
+  }
+}

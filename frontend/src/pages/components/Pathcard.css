@@ -1,0 +1,219 @@
+@font-face {
+  src: url("../assets/BebasNeue-Bold.ttf");
+  font-family: bebasneue-bold;
+}
+@font-face {
+  src: url("../assets/Poppins-Regular.ttf");
+  font-family: poppins-regular;
+}
+@font-face {
+  src: url("../assets/Montserrat-Regular.ttf");
+  font-family: montserrat-regular;
+}
+
+.pathcard-main-parent {
+  z-index: 5;
+  border-bottom: 1px solid gray;
+  padding: 0px 100px;
+  padding-bottom: 55px;
+}
+.pathcard-imageflow-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.pathcard-image-container {
+  width: 450px;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  margin-right: 80px;
+}
+.pathcard-image-heading1 {
+  font-size: 40px;
+  color: white;
+  font-family: bebasneue-bold;
+}
+.pathcard-image-heading2 {
+  font-size: 50px;
+  color: #ff4d15;
+  font-family: bebasneue-bold;
+}
+.pathcard-flow-horizontal-line {
+  border-bottom: 2.5px solid gray;
+  width: 450px;
+  display: flex;
+  justify-content: space-between;
+}
+.pathcard-flow-circle {
+  background-color: #ff4d15;
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  margin-bottom: -4px;
+}
+.pathcard-flow-labels-container {
+  margin-top: 15px;
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: -20px;
+}
+.pathcard-flow-labels {
+  color: white;
+  font-family: montserrat-regular;
+  font-size: 14px;
+}
+.pathcard-subheading-container {
+  display: flex;
+  margin-top: 30px;
+}
+.pathcard-subheading-heading1 {
+  color: white;
+  font-family: bebasneue-bold;
+  font-size: 24px;
+}
+.pathcard-subheading-heading2 {
+  color: #ff4d15;
+  font-family: bebasneue-bold;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+.pathcard-content {
+  font-size: 12px;
+  font-family: poppins-regular;
+  margin-top: 15px;
+  width: 80vw;
+  color: #a7a7a7;
+}
+.pathcard-bottom-container {
+  display: flex;
+  justify-content: space-around;
+
+  align-items: center;
+}
+.pathcard-bottom-subcontainer {
+  align-items: center;
+}
+.pathcard-bottom-subcontainer-modules {
+  cursor: pointer;
+  height: 33px;
+  width: 100px;
+  font-size: 14px;
+  font-family: montserrat-regular;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(113, 113, 113, 0.8);
+  border-radius: 5px;
+  margin-right: 20px;
+}
+.pathcard-bottom-subcontainer-progress {
+  color: #ff4d15;
+  font-size: 14px;
+  font-family: montserrat-regular;
+}
+.pathcard-boost-container {
+  height: 33px;
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  font-family: poppins-regular;
+  background-color: rgba(113, 113, 113, 0.8);
+  border-radius: 5px;
+
+  margin-right: 20px;
+}
+.pathcard-bottom-enroll-button {
+  color: #ff4d15;
+  border: 1px solid #ff4d15;
+  background-color: #000;
+  border-radius: 7px;
+  height: 33px;
+  width: 100px;
+  font-size: 14px;
+  font-family: montserrat-regular;
+  cursor: pointer;
+}
+.pathcard-bottom-enroll-button:hover {
+  color: #fff;
+  background-color: #ff4d15;
+  transition: 0.5s;
+}
+.pathcard-extension-container {
+  width: 100%;
+  margin-top: 20px;
+}
+@media screen and (max-width: 1100px) {
+  .pathcard-main-parent {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+  .pathcard-content {
+    width: 85vw;
+    text-align: justify;
+  }
+  .pathcard-image-container {
+    margin-bottom: 30px;
+  }
+  .pathcard-imageflow-container {
+    justify-content: center;
+  }
+  .pathcard-image-container {
+    margin-right: 0px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .pathcard-main-parent {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .pathcard-image-heading1,
+  .pathcard-image-heading2 {
+    font-size: 30px;
+  }
+  .pathcard-subheading-heading1,
+  .pathcard-subheading-heading2 {
+    font-size: 20px;
+  }
+
+  .pathcard-image-container {
+    width: 260px;
+    height: 200px;
+  }
+  .pathcard-flow-horizontal-line {
+    width: 260px;
+  }
+  .pathcard-flow-labels-container {
+    width: 300px;
+  }
+  .pathcard-content {
+    font-size: 10px;
+  }
+  .pathcard-bottom-subcontainer-modules {
+    height: 28px;
+    width: 58px;
+    font-size: 10px;
+    margin-right: 8px;
+  }
+  .pathcard-bottom-enroll-button {
+    height: 28px;
+    width: 50px;
+    font-size: 10px;
+  }
+  .pathcard-boost-container {
+    height: 28px;
+    width: 40px;
+    font-size: 10px;
+    margin-right: 8px;
+  }
+  .pathcard-bottom-subcontainer-progress {
+    font-size: 10px;
+  }
+}

@@ -1,0 +1,141 @@
+@font-face {
+  src: url("../assets/BebasNeue-Bold.ttf");
+  font-family: bebasneue-bold;
+}
+@font-face {
+  src: url("../assets/Poppins-Regular.ttf");
+  font-family: poppins-regular;
+}
+@font-face {
+  src: url("../assets/Montserrat-Regular.ttf");
+  font-family: montserrat-regular;
+}
+
+.coursedetailscard-container {
+  background-color: #000;
+
+  display: flex;
+  align-items: center;
+  color: #fff;
+  flex-wrap: wrap;
+}
+.coursedetailscard-image {
+  width: 450px;
+  height: 220px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+}
+
+.coursedetailscard-image-heading1 {
+  font-size: 40px;
+  color: white;
+  font-family: bebasneue-bold;
+}
+.coursedetailscard-image-heading2 {
+  font-size: 50px;
+  color: #ff4d15;
+  font-family: bebasneue-bold;
+}
+.coursedetailscard-text-container {
+  margin-left: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.coursedetailscard-title-container {
+  margin-bottom: 20px;
+  display: flex;
+}
+.coursedetailscard-title-heading1 {
+  font-size: 28px;
+  color: white;
+  padding-right: 10px;
+  font-family: bebasneue-bold;
+}
+.coursedetailscard-title-heading2 {
+  font-size: 28px;
+  color: #ff4d15;
+  font-family: bebasneue-bold;
+}
+.coursedetailscard-content-text {
+  width: 500px;
+  margin-top: 10px;
+  font-size: 14px;
+  color: #a7a7a7;
+  margin-bottom: 20px;
+  font-family: poppins-regular;
+}
+.coursedetailscard-enroll {
+  height: 33px;
+  width: 100px;
+  color: #ff4d15;
+  border: 1px solid #ff4d15;
+  border-radius: 8px;
+  background-color: #000;
+  cursor: pointer;
+  font-family: montserrat-regular;
+}
+.coursedetailscard-enroll:hover {
+  background-color: #ff4d15;
+  color: #fff;
+  transition: 0.5s;
+}
+.coursedetailscard-difficult-tag {
+  margin-bottom: 10px;
+}
+@media screen and (max-width: 1185px) {
+  .coursedetailscard-image-heading1 {
+    font-size: 35px;
+  }
+  .coursedetailscard-image-heading2 {
+    font-size: 45px;
+  }
+  .coursedetailscard-content-text {
+    width: 400px;
+  }
+}
+@media screen and (max-width: 950px) {
+  .coursedetailscard-image-heading1 {
+    font-size: 25px;
+  }
+  .coursedetailscard-image-heading2 {
+    font-size: 35px;
+  }
+  .coursedetailscard-title-heading1,
+  .coursedetailscard-title-heading2 {
+    font-size: 20px;
+  }
+  .coursedetailscard-content-text {
+    width: 90vw;
+    text-align: justify;
+  }
+  .debug {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .coursedetailscard-image {
+    width: 380px;
+    height: 180px;
+  }
+  .coursedetailscard-text-container {
+    margin-left: 20px;
+  }
+  .coursedetailscard-enroll-button {
+    display: flex;
+    justify-content: center;
+  }
+  .coursedetailscard-content-text {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .coursedetailscard-image {
+    width: 340px;
+    height: 180px;
+  }
+}

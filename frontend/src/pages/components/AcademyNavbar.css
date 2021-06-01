@@ -1,0 +1,216 @@
+:root {
+  --primary: #fff;
+  --secondary: #ff4d15;
+}
+
+@font-face {
+  src: url("../assets/Montserrat-Regular.ttf");
+  font-family: montserrat-regular;
+}
+@font-face {
+  src: url("../assets/Poppins-Regular.ttf");
+  font-family: poppins-regular;
+}
+
+.navbar {
+  background: #000;
+  height: 8vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+}
+
+.container {
+  z-index: 999;
+  width: 100%;
+  max-width: 1300px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+.navbar-logo {
+  color: #fff;
+  justify-self: start;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-icon {
+  margin-right: 0.5rem;
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  text-align: center;
+  justify-content: end;
+}
+
+.nav-item {
+  height: 80px;
+  border-bottom: 2px solid transparent;
+}
+
+.nav-item:hover {
+  border-bottom: 2px solid #f00946;
+}
+
+.nav-bar-search input[type="text"] {
+  width: 500px;
+  height: 32px;
+  border: 0px;
+  border-radius: 5px;
+  margin-top: 20px;
+  padding-left: 5px;
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 14;
+  font-family: poppins-regular;
+}
+
+.nav-bar-search input[type="text"]:focus {
+  outline-color: none !important;
+}
+.nav-links {
+  cursor: pointer;
+  color: #a7a7a7;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 0.5rem 1.3rem;
+  height: 100%;
+  font-family: montserrat-regular, sans-serif;
+}
+.nav-items > .active {
+  color: var(--secondary);
+  border-bottom: 1px solid var(--secondary);
+}
+.fa-bars {
+  color: #fff;
+}
+
+.menu-icon {
+  display: none;
+}
+.navbar-signup {
+  color: #fff;
+  border: 1px solid #ff4d15;
+  background-color: #ff4d15;
+  border-radius: 7px;
+  height: 30px;
+  width: 100px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.academynavbar-logo {
+  width: 40px;
+  height: 40px;
+  background-image: url("../images/profile.png");
+  background-size: contain;
+  background-position: center;
+}
+
+@media screen and (max-width: 960px) {
+  .NavbarItems {
+    position: relative;
+  }
+
+  .nav-menu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 90vh;
+    position: absolute;
+    top: 80px;
+    left: -100%;
+    opacity: 1;
+    transition: all 0.5s ease;
+  }
+
+  .nav-menu.active {
+    background: #1d1d1d;
+    left: 0;
+    opacity: 1;
+    transition: all 0.6s ease;
+    z-index: 999;
+  }
+
+  .nav-links {
+    text-align: center;
+    padding: 2rem;
+    width: 100%;
+    display: table;
+  }
+
+  .nav-links:hover {
+    color: var(--secondary);
+    transform: scale(1.2);
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
+
+  .nav-item:hover {
+    border: none;
+    cursor: pointer;
+  }
+
+  .nav-item {
+    width: 100%;
+  }
+
+  .navbar-logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(25%, 50%);
+  }
+
+  .menu-icon {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-100%, 60%);
+    font-size: 1.8rem;
+    cursor: pointer;
+  }
+
+  .fa-times {
+    color: #fff;
+    font-size: 2rem;
+  }
+
+  .nav-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 120px;
+  }
+  .nav-bar-search input[type="text"] {
+    width: 300px;
+    margin-left: 150px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .nav-bar-search input[type="text"] {
+    display: none;
+  }
+}

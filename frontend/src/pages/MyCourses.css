@@ -1,0 +1,42 @@
+@font-face {
+  src: url("./assets/Montserrat-Regular.ttf");
+  font-family: montserrat-regular;
+}
+
+.mycourses-parent-container {
+  background-color: #000;
+  font-family: montserrat-regular;
+  padding-bottom: 50px;
+}
+.mycourses-type-wrapper {
+  display: flex;
+  margin-left: 50px;
+  margin-bottom: 20px;
+  padding-top: 20px;
+}
+.completedcourse-cards-container {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+.mycourses-type1 {
+  color: white;
+  font-size: 18px;
+  margin-right: 25px;
+  cursor: pointer;
+}
+.mycourses-type2 {
+  color: #ff4d15;
+  font-size: 18px;
+  margin-right: 25px;
+  cursor: pointer;
+}
+@media screen and (max-width: 680px) {
+  .mycourses-type1,
+  .mycourses-type2 {
+    font-size: 14px;
+  }
+  .mycourses-type-wrapper {
+    margin-left: 20px;
+  }
+}

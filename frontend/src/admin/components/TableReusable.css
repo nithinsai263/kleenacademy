@@ -1,0 +1,35 @@
+#ctftable {
+  text-align: center;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#ctftable td,
+#ctftable th {
+  padding: 8px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 12px;
+}
+.table-header {
+  color: #768192;
+  background-color: #d8dbe0;
+  height: 10px;
+  font-weight: bold;
+}
+.table-data {
+  color: #000;
+}
+@media screen and (max-width: 650px) {
+  #ctftable td,
+  #ctftable th {
+    padding: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 8px;
+  }
+  .ctftablellist-time {
+    font-size: 8px;
+  }
+}

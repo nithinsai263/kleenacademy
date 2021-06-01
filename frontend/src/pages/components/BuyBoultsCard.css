@@ -1,0 +1,75 @@
+@font-face {
+  src: url("../assets/BebasNeue-Bold.ttf");
+  font-family: bebasneue-bold;
+}
+
+@font-face {
+  src: url("../assets/Montserrat-Regular.ttf");
+  font-family: montserrat-regular;
+}
+.buyboultscard-parent-container {
+  background-color: #121212;
+  width: 230px;
+  height: 100px;
+  border-radius: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border-bottom: 1px solid #000;
+}
+.buyboultscard-parent-container:hover {
+  border-bottom: 1px solid #ff4d15;
+  transition: 0.5s;
+}
+
+.buyboultscard-number-boults {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.buyboultscard-title-text {
+  color: #ff4d15;
+  font-size: 28px;
+  font-family: bebasneue-bold;
+  margin-right: 10px;
+}
+.buyboults-hover-container:hover {
+  margin-bottom: 5px;
+  transition: 0.5s;
+}
+.buyboultscard-boost-image {
+  height: 23px;
+  width: 23px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.buyboultscard-price-text {
+  color: #fff;
+  font-size: 16px;
+  font-family: montserrat-regular;
+}
+@media screen and (max-width: 1150px) {
+  .buyboultscard-parent-container {
+    width: 180px;
+    height: 90px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .buyboultscard-parent-container {
+    width: 100px;
+    height: 75px;
+  }
+  .buyboultscard-price-text {
+    font-size: 12px;
+  }
+  .buyboultscard-title-text {
+    font-size: 20px;
+  }
+  .buyboultscard-boost-image {
+    height: 18px;
+    width: 18px;
+  }
+}

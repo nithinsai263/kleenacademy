@@ -1,0 +1,117 @@
+@font-face {
+  src: url("../assets/BebasNeue-Bold.ttf");
+  font-family: bebasneue-bold;
+}
+@font-face {
+  src: url("../assets/Poppins-Regular.ttf");
+  font-family: poppins-regular;
+}
+@font-face {
+  src: url("../assets/Montserrat-Regular.ttf");
+  font-family: montserrat-regular;
+}
+
+.course-component-maincontainer {
+  color: #ffffff;
+  z-index: 10;
+  border-top: 1px solid #000;
+  margin-bottom: 75px;
+  margin-left: 50px;
+  margin-right: 50px;
+  cursor: pointer;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  min-width: 320px;
+  max-width: 320px;
+}
+.course-component-maincontainer:hover {
+  border-top: 1px solid #ff4d15;
+  transition: 0.5s;
+}
+.course-component-image {
+  height: 150px;
+  display: flex;
+  text-align: left;
+  align-items: flex-end;
+}
+
+.course-component-name {
+  font-size: 25px;
+  font-family: bebasneue-bold;
+  max-width: 150px;
+  padding-left: 10px;
+}
+
+.course-component-name2 {
+  font-size: 25px;
+  font-family: bebasneue-bold;
+  max-width: 150px;
+  padding-left: 10px;
+  color: #ff4d14;
+}
+
+.course-component-summary {
+  background-color: #121212;
+  min-height: 230px;
+}
+
+.course-component-summary-heading {
+  font-size: 14px;
+  font-family: montserrat-regular;
+  color: #ffffff;
+  padding: 10px;
+  padding-top: 30px;
+}
+
+.course-component-summary-text {
+  font-size: 10px;
+  font-family: poppins-regular;
+  color: #a7a7a7;
+  padding: 10px;
+  padding-bottom: 30px;
+}
+
+.course-component-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-bottom: 20px;
+  font-size: 12px;
+  font-family: montserrat-regular;
+}
+
+.course-component-difficulty {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.course-component-enroll-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.course-component-cost-container {
+  display: flex;
+  background-color: rgba(113, 113, 113, 0.8);
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin: 5px;
+}
+
+.course-component-enroll {
+  background-color: #000000;
+  padding: 5px 10px;
+  margin: 5px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: #ff4d15 solid 1px;
+  color: #ff4d15;
+}
+
+.course-component-enroll:hover {
+  background-color: #ff4d15;
+  transition: 0.3s;
+  color: #000000;
+}

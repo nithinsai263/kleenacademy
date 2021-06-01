@@ -1,0 +1,9 @@
+.dashboard-tile1 {
+  height: 100px;
+  width: 170px;
+  background-color: #fff;
+  padding: 10px 20px;
+  font-family: poppins-regular;
+  display: flex;
+  align-items: center;
+}

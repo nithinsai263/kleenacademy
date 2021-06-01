@@ -1,0 +1,128 @@
+@font-face {
+  src: url("../assets/BebasNeue-Bold.ttf");
+  font-family: bebasneue-bold;
+}
+@font-face {
+  src: url("../assets/Poppins-Regular.ttf");
+  font-family: poppins-regular;
+}
+
+@font-face {
+  src: url("../assets/Montserrat-Regular.ttf");
+  font-family: montserrat-regular;
+}
+.subscription-card-container {
+  background-color: #121212;
+  width: 330px;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 75px 15px 10px 15px;
+}
+.subscription-card-free-title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.subscription-card-free-title-text {
+  color: #fff;
+  opacity: 0.8;
+  font-size: 14px;
+  font-family: montserrat-regular;
+}
+.subscription-card-flashes-container {
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+}
+.subscription-card-flashes-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.subscription-card-flashes-title {
+  font-size: 28px;
+  color: #ff4d15;
+  margin-right: 10px;
+  font-family: bebasneue-bold;
+}
+.subscription-card-boost-image {
+  width: 25px;
+  height: 25px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.subscription-card-flashes-subtitle {
+  color: #fff;
+  opacity: 0.8;
+  font-size: 14px;
+  font-family: montserrat-regular;
+}
+.subscription-card-price-container {
+  display: flex;
+  margin-bottom: 50px;
+  align-items: center;
+  justify-content: center;
+}
+.subscription-card-price-text1 {
+  color: #fff;
+  font-size: 40px;
+  font-family: bebasneue-bold;
+}
+.subscription-card-price-text2 {
+  color: #fff;
+  font-size: 16px;
+  font-family: montserrat-regular;
+}
+.subscription-card-features {
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+}
+.subscription-card-features-title {
+  color: #fff;
+  opacity: 0.8;
+  font-size: 14px;
+  margin-bottom: 15px;
+  font-family: poppins-regular;
+}
+.subscription-card-feature-content {
+  font-size: 11px;
+  color: #fff;
+  font-family: poppins-regular;
+  margin-bottom: 8px;
+  text-align: center;
+}
+.subscription-card-subscribe-wrapper {
+  display: flex;
+  justify-content: center;
+}
+.subscription-card-subscribe-button {
+  height: 50px;
+  width: 250px;
+  color: #ff4d15;
+  font-size: 18px;
+  background-color: black;
+  border: 1px solid #ff4d15;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.subscription-card-subscribe-button:hover {
+  background-color: #ff4d15;
+  color: #fff;
+  border: 0px;
+  transition: 0.5s;
+}
+
+@media screen and (max-width: 650px) {
+  .subscription-card-container {
+    margin-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .subscription-card-container {
+    width: 250px;
+  }
+}

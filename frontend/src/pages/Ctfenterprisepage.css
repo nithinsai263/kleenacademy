@@ -1,0 +1,95 @@
+@font-face {
+  src: url("./assets/BebasNeue-Bold.ttf");
+  font-family: bebasneue-bold;
+}
+@font-face {
+  src: url("./assets/Poppins-Regular.ttf");
+  font-family: poppins-regular;
+}
+
+.ctfenterprisepage-main-container {
+  background-image: url("./images/Frame.png");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: #000;
+  height: 100vh;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cont {
+  text-align: center;
+}
+
+.ctfenterprise-heading-subcontainer1 {
+  display: flex;
+  padding-left: 150px;
+}
+.ctfenterprisepage-heading1-part1 {
+  color: #ff4d15;
+  padding-right: 10px;
+  font-family: bebasneue-bold;
+  font-size: 38px;
+}
+.ctfenterprisepage-heading1-part2 {
+  font-family: bebasneue-bold;
+  font-size: 38px;
+}
+.ctfenterprisepage-heading2-part1 {
+  color: #ff4d15;
+  padding-right: 10px;
+  font-size: 55px;
+  font-family: bebasneue-bold;
+}
+.ctfenterprisepage-heading2-part2 {
+  font-size: 55px;
+  font-family: bebasneue-bold;
+}
+.ctfenterprise-heading-subcontainer2 {
+  display: flex;
+}
+.ctfenterprisepage-content-container {
+  padding-top: 30px;
+  padding-left: 60px;
+  width: 500px;
+  color: #a7a7a7;
+  font-family: poppins-regular;
+}
+.ctfenterprisepage-button-container {
+  padding-top: 30px;
+}
+.ctfenterprisepage-button1 {
+  width: 100px;
+  height: 33px;
+  background-color: #ff4d15;
+  color: #fff;
+  margin-right: 20px;
+  border: 0px;
+  border-radius: 8px;
+}
+.ctfenterprisepage-button1:hover {
+  background-color: #fff;
+  color: #000;
+  transition: 0.5s;
+}
+.ctfenterprisepage-button2 {
+  width: 100px;
+  height: 33px;
+  background-color: #000;
+  color: #fff;
+  margin-right: 20px;
+  border: 1px solid #ff4d15;
+  border-radius: 8px;
+}
+.ctfenterprisepage-button2:hover {
+  background-color: #fff;
+  color: #000;
+  transition: 0.5s;
+  border: 0px;
+}
+.ellipse {
+  font-size: 80px;
+  color: #fff;
+}

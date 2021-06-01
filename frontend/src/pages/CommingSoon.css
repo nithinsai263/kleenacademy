@@ -1,0 +1,68 @@
+@font-face {
+  src: url("./assets/BebasNeue-Bold.ttf");
+  font-family: bebasneue-bold;
+}
+@font-face {
+  src: url("./assets/Poppins-Regular.ttf");
+  font-family: poppins-regular;
+}
+@font-face {
+  src: url("./assets/Montserrat-Regular.ttf");
+  font-family: montserrat-regular;
+}
+
+.comming-soon-parent-container {
+  height: 100vh;
+  display: flex;
+  background-image: url("./images/background.gif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+}
+.comming-soon-title-container {
+  text-align: center;
+}
+.comming-soon-title1 {
+  font-size: 60px;
+  color: #ff4d15;
+  font-family: bebasneue-bold;
+}
+.comming-soon-title2 {
+  font-size: 60px;
+  color: #fff;
+  font-family: bebasneue-bold;
+}
+.comming-soon-site-nearly-ready {
+  margin-top: 20px;
+}
+.comming-soon-site-nearly-ready-text {
+  font-size: 18px;
+  color: #fff;
+  font-family: montserrat-regular;
+}
+.comming-soon-loading-container {
+  height: 6px;
+  background-color: gray;
+  width: 300px;
+  display: flex;
+  margin-top: 20px;
+  border-radius: 50px;
+}
+.comming-soon-loading-container-fill {
+  border-radius: 50px;
+  height: 6px;
+  background-color: #ff4d15;
+  width: 200px;
+}
+.comming-soon-loading-container-label {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+.comming-soon-loading-container-label-text {
+  color: #fff;
+  font-family: poppins-regular;
+  font-size: 14px;
+}

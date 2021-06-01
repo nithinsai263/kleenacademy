@@ -1,0 +1,216 @@
+@font-face {
+  src: url("./assets/BebasNeue-Bold.ttf");
+  font-family: bebasneue-bold;
+}
+@font-face {
+  src: url("./assets/Poppins-Regular.ttf");
+  font-family: poppins-regular;
+}
+@font-face {
+  src: url("./assets/Montserrat-Regular.ttf");
+  font-family: montserrat-regular;
+}
+.academy-profile-main-container {
+  color: #ffffff;
+  background-color: #000000;
+  padding-bottom: 5%;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 35px;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.academy-profile-container {
+  display: flex;
+}
+
+.academy-profile-menu-container {
+  width: 300px;
+  height: 540px;
+  background-color: #121212;
+  margin: 10px;
+  margin-right: 5px;
+  margin-left: 15px;
+  padding-top: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  font-family: montserrat-regular;
+}
+
+.academy-profile-menu-container2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.academy-profile-information-container {
+  width: 800px;
+  height: 600px;
+  background-color: #121212;
+  margin: 10px;
+  margin-left: 5px;
+  margin-right: 15px;
+}
+
+.academy-profile-menu-profile {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  background-color: #410808;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.academy-profile-menu-name {
+  font-size: 18px;
+  margin-bottom: 70px;
+  text-align: center;
+}
+
+.academy-profile-menu-list-container {
+  width: 100%;
+  text-align: center;
+}
+
+.academy-profile-menu-list {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  cursor: pointer;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.academy-profile-information-header {
+  text-align: center;
+}
+
+.academy-profile-information-header1 {
+  font-size: 20px;
+  padding-top: 10px;
+  font-family: poppins-regular;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.academy-profile-information-header2 {
+  color: #ff4d15;
+  font-size: 16px;
+  font-family: poppins-regular;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  margin-bottom: 10px;
+}
+
+.academy-profile-information-inputcontainer {
+  display: flex;
+  flex-direction: row;
+  width: 600px;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.academy-profile-information-inputmain-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+  font-family: poppins-regular;
+  font-size: 14px;
+}
+
+input[type="text"],
+select {
+  width: 60%;
+  height: 30px;
+  padding: 2px 20px;
+  margin: 8px 5px;
+  border-radius: 4px;
+  border: 1px solid #121212;
+  background-color: #2d2d2d;
+  color: #ffffff;
+}
+input[type="text"]:focus {
+  outline-color: black;
+}
+.academy-profile-information-submit {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 15%;
+}
+
+.academy-profile-information-save {
+  height: 33px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+  border: 1px solid #ff4d15;
+  color: #ff4d15;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 14px;
+  font-family: montserrat-regular;
+}
+.academy-profile-information-save:hover {
+  background-color: #ff4d15;
+  transition: 0.5s;
+  color: #fff;
+}
+.academy-profile-menu-logout {
+  color: #ff4d15;
+}
+@media screen and (max-width: 1150px) {
+  .academy-profile-menu-container {
+    width: 250px;
+  }
+  .academy-profile-information-container {
+    width: 600px;
+  }
+  .academy-profile-information-inputcontainer {
+    width: 500px;
+  }
+}
+@media screen and (max-width: 950px) {
+  .academy-profile-menu-container {
+    width: 220px;
+  }
+  .academy-profile-information-container {
+    width: 450px;
+  }
+  .academy-profile-information-inputcontainer {
+    width: 400px;
+  }
+  .academy-profile-menu-container {
+    margin-left: 5px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .academy-profile-menu-container {
+    width: 100%;
+  }
+  .academy-profile-container {
+    flex-wrap: wrap;
+  }
+  .academy-profile-information-container {
+    width: 100%;
+    margin-right: 0px;
+  }
+  .academy-profile-information-inputcontainer {
+    width: 280px;
+  }
+  .academy-profile-information-inputmain-container {
+    font-size: 12px;
+  }
+  input[type="text"],
+  select {
+    width: 50%;
+  }
+}

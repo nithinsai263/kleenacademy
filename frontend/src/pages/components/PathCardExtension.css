@@ -1,0 +1,114 @@
+@font-face {
+  src: url("../assets/Montserrat-Regular.ttf");
+  font-family: montserrat-regular;
+}
+
+.path-extension-course-component-enroll {
+  background-color: #000;
+  border: 1px solid #ff4d15;
+  border-radius: 3px;
+  font-size: 12px;
+  font-family: montserrat-regular;
+  color: #ff4d15;
+  height: 25px;
+  width: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 35px;
+}
+
+.path-extension-course-component-enroll:hover {
+  background-color: #ff4d15;
+  transition: 0.3s;
+  color: #000000;
+}
+
+.pathCardExtension-parent-container {
+  background-color: #1c1c1c;
+  padding: 10px 40px;
+  padding-top: 20px;
+}
+.pathCardExtension-Names {
+  text-align: center;
+}
+.pathCardExtension-header-text {
+  font-size: 12px;
+  color: white;
+  font-family: montserrat-regular;
+  margin-bottom: 40px;
+}
+.pathCardExtension-course-name-container {
+  margin-top: 40px;
+}
+.pathCardExtension-course-name-text {
+  font-size: 12px;
+  color: white;
+  font-family: montserrat-regular;
+}
+.pathcardExtension-tik-image-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.pathcardExtension-tik-image-container2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 0px;
+  margin-bottom: -15px;
+}
+.pathCardExtension-tik-image {
+  height: 40px;
+  width: 40px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-size: contain;
+  height: 30px;
+}
+.pathCardExtension-tag-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+.pathCardExtension-hide {
+  font-size: 12px;
+  color: #1c1c1c;
+  font-family: montserrat-regular;
+}
+.pathCardExtension-tag-content {
+  margin-top: 22px;
+}
+@media screen and (max-width: 650px) {
+  .pathCardExtension-parent-container {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .pathCardExtension-header-text {
+    font-size: 11px;
+  }
+  .pathCardExtension-course-name-text {
+    font-size: 8px;
+  }
+  .pathCardExtension-tag-container {
+    margin-top: 20px;
+  }
+  .pathcardExtension-tik-image-container {
+    margin-top: 50px;
+  }
+  .pathCardExtension-tik-image {
+    width: 25px;
+    height: 25px;
+  }
+  .pathCardExtension-tag-container {
+    margin-top: 35px;
+  }
+  .path-extension-course-component-enroll {
+    height: 20px;
+    width: 45px;
+    font-size: 8px;
+    margin-top: 32px;
+  }
+  .pathCardExtension-course-name-container {
+    margin-top: 42px;
+  }
+}

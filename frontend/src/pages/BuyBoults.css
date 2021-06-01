@@ -1,0 +1,112 @@
+@font-face {
+  src: url("./assets/BebasNeue-Bold.ttf");
+  font-family: bebasneue-bold;
+}
+
+@font-face {
+  src: url("./assets/Montserrat-Regular.ttf");
+  font-family: montserrat-regular;
+}
+
+.buybolts-parent-container {
+  background-color: #000;
+  padding: 50px 30px;
+  overflow: hidden;
+}
+.buybolts-main-title-container {
+  display: flex;
+  margin-bottom: 15px;
+}
+.buybolts-main-title-text1 {
+  color: #fff;
+  margin-right: 10px;
+  font-family: montserrat-regular;
+}
+.buybolts-main-title-text2 {
+  color: #ff4d15;
+  font-family: montserrat-regular;
+}
+.buybolts-header-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.buybolts-header-wrapper {
+  display: flex;
+  padding-left: 10px;
+  justify-content: center;
+
+  align-items: center;
+  position: relative;
+  animation-name: mymove;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+.buybolts-header-text {
+  color: #fff;
+  font-size: 70px;
+  margin-right: 15px;
+  font-family: bebasneue-bold;
+}
+.buybolts-header-image {
+  height: 55px;
+  width: 55px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.buybolts-header-shadow-image {
+  width: 100px;
+  height: 10px;
+  margin-top: 10px;
+  animation-name: shadow;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.buyboults-row1 {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 130px;
+}
+.buyboults-row2 {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 60px;
+}
+@keyframes mymove {
+  0% {
+    top: 0px;
+  }
+
+  50% {
+    top: 10px;
+  }
+
+  100% {
+    top: 0px;
+  }
+}
+@keyframes shadow {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@media screen and (max-width: 450px) {
+  .buybolts-main-title-container {
+    margin-bottom: 50px;
+  }
+  .buyboults-row1 {
+    margin-top: 80px;
+  }
+  .buybolts-header-container {
+    padding-left: 55px;
+  }
+}

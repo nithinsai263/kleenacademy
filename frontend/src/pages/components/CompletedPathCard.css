@@ -1,0 +1,132 @@
+@font-face {
+  src: url("../assets/BebasNeue-Bold.ttf");
+  font-family: bebasneue-bold;
+}
+@font-face {
+  src: url("../assets/Poppins-Regular.ttf");
+  font-family: poppins-regular;
+}
+@font-face {
+  src: url("../assets/Montserrat-Regular.ttf");
+  font-family: montserrat-regular;
+}
+.completedPathCard-parent-container {
+  background-color: #121212;
+  width: 90vw;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 15px;
+  margin-bottom: 30px;
+}
+.completedPathCard-title-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.completedPathCard-title-image-wrapper {
+  display: flex;
+  align-items: center;
+}
+.completedPathCard-title-image {
+  height: 110px;
+  width: 220px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+.completedPathCard-title1-text {
+  font-size: 30px;
+  color: #fff;
+  font-family: bebasneue-bold;
+}
+.completedPathCard-title2-text {
+  font-size: 35px;
+  color: #ff4d15;
+  font-family: bebasneue-bold;
+}
+.completedPathCard-continue-button-container {
+  margin-right: 100px;
+}
+.completedPathCard-continue-button {
+  height: 33px;
+  width: 100px;
+  border-radius: 5px;
+  border: 1px solid #ff4d15;
+  font-family: montserrat-regular;
+  background-color: black;
+  color: #ff4d15;
+}
+.completedPathCard-continue-button:hover {
+  background-color: #ff4d15;
+  color: #fff;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.completedPathCard-content-wrapper {
+  width: 90vw;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #a7a7a7;
+  font-family: poppins-regular;
+  font-size: 14px;
+}
+.completedPathCard-percent-label {
+  margin-top: 10px;
+  margin-bottom: 15px;
+  color: #ff4d15;
+  font-family: montserrat-regular;
+}
+.completedPathCard-modules-button {
+  height: 28px;
+  width: 80px;
+  background-color: #717171;
+  color: #fff;
+  border: 0px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: montserrat-regular;
+}
+@media screen and (max-width: 650px) {
+  .completedPathCard-title-image-wrapper {
+    width: 100%;
+    justify-content: center;
+  }
+  .completedPathCard-title-image {
+    height: 110px;
+    width: 180px;
+    margin-right: 30px;
+  }
+  .completedPathCard-continue-button {
+    height: 25px;
+    width: 80px;
+    font-size: 12px;
+  }
+
+  .completedPathCard-title1-text {
+    font-size: 20px;
+  }
+  .completedPathCard-title2-text {
+    font-size: 25px;
+  }
+  .completedPathCard-continue-button-container {
+    margin-right: 0px;
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .completedPathCard-content-wrapper {
+    text-align: justify;
+    font-size: 12px;
+  }
+  .completedPathCard-modules-button {
+    font-size: 12px;
+  }
+  .completedPathCard-percent-label {
+    font-size: 14px;
+  }
+}

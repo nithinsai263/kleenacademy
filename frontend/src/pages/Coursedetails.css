@@ -1,0 +1,26 @@
+.coursedetails-content {
+  background-color: #000;
+}
+.coursedetails-coursecard-container {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 70px;
+}
+.coursedetails-pathcard-container {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 40px;
+  margin-bottom: 80px;
+}
+.coursedetails-relavent-path-header {
+  padding-top: 70px;
+  padding-left: 90px;
+  display: flex;
+}
+.coursedetails-relavent-path-sub-header1 {
+  color: white;
+  margin-right: 10px;
+}
+.coursedetails-relavent-path-sub-header2 {
+  color: #ff4d15;
+}

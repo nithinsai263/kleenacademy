@@ -1,0 +1,43 @@
+@font-face {
+  src: url("./assets/Montserrat-Regular.ttf");
+  font-family: montserrat-regular;
+}
+.mypaths-parent-container {
+  background-color: #000;
+}
+.mypaths-type-wrapper {
+  display: flex;
+  margin-left: 50px;
+  margin-bottom: 20px;
+  padding-top: 20px;
+  font-family: montserrat-regular;
+}
+.mypaths-completedpaths-cards-container {
+  display: flex;
+  justify-content: center;
+}
+.mypaths-type1 {
+  color: white;
+  font-size: 18px;
+  margin-right: 25px;
+  cursor: pointer;
+}
+.mypaths-type2 {
+  color: #ff4d15;
+  font-size: 18px;
+  margin-right: 25px;
+  cursor: pointer;
+}
+.mypath-default-back-color {
+  background-color: #000;
+  min-height: 100vh;
+}
+@media screen and (max-width: 680px) {
+  .mypaths-type1,
+  .mypaths-type2 {
+    font-size: 14px;
+  }
+  .mypaths-type-wrapper {
+    margin-left: 20px;
+  }
+}

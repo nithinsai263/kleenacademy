@@ -1,0 +1,57 @@
+@font-face {
+  src: url("../assets/BebasNeue-Bold.ttf");
+  font-family: bebasneue-bold;
+}
+
+@font-face {
+  src: url("../assets/Montserrat-Regular.ttf");
+  font-family: montserrat-regular;
+}
+
+.certificate-main-page-container {
+  background-color: black;
+  height: 100vh;
+  padding: 15px;
+}
+.certificate-container {
+  background-image: url("../images/certificate.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 90vh;
+  background-size: contain;
+  display: flex;
+  justify-content: center;
+  color: #ddd;
+  font-family: mon;
+  display: flex;
+  justify-content: center;
+}
+.certificate-title {
+  font-family: bebasneue-bold;
+  font-size: 35px;
+  margin-bottom: 80px;
+}
+.certificate-title-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.certificate-sub-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: montserrat-regular;
+}
+.certificate-button-container {
+  display: flex;
+  justify-content: flex-end;
+}
+.certificate-button {
+  height: 38px;
+  width: 135px;
+  background-color: #ff4d15;
+  color: #fff;
+  border-radius: 7px;
+  border: 0px;
+  cursor: pointer;
+}

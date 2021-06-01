@@ -1,0 +1,49 @@
+@font-face {
+  src: url("../assets/Montserrat-Regular.ttf");
+  font-family: montserrat-regular;
+}
+.dropdown-list {
+  background: red;
+  width: 150px;
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  list-style: none;
+  text-align: start;
+}
+
+.dropdown-list li {
+  background: #1d1d1d;
+  cursor: pointer;
+}
+
+.dropdown-list li:hover {
+  background: #767676;
+}
+
+.dropdown-list.clicked {
+  display: none;
+}
+
+.dropdown-link {
+  display: block;
+  height: 100%;
+  width: 100%;
+  text-decoration: none;
+  color: #fff;
+  padding: 16px;
+}
+.dropdown-li-items {
+  font-family: montserrat-regular;
+  font-size: 12px;
+  margin-right: 10px;
+}
+.dropdown-list-li-container {
+  display: flex;
+}
+
+@media screen and (max-width: 960px) {
+  .fa-caret-down {
+    display: none;
+  }
+}

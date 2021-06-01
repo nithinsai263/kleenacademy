@@ -1,0 +1,75 @@
+@font-face {
+  src: url("./assets/Montserrat-Regular.ttf");
+  font-family: montserrat-regular;
+}
+.subscription-parent-container {
+  padding: 100px 30px;
+  background-color: black;
+}
+.subscription-title-container {
+  display: flex;
+  margin-bottom: 40px;
+}
+.subscription-title-text1 {
+  color: #fff;
+  margin-right: 10px;
+  font-family: montserrat-regular;
+}
+.subscription-title-text2 {
+  color: #ff4d15;
+  font-family: montserrat-regular;
+}
+.subscription-cards-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.merch-maincontainer {
+  display: flex;
+  background-color: #121212;
+  background-image: url("./images/merchbg.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  justify-content: space-around;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  flex-wrap: wrap;
+  margin-left: -30px;
+  margin-right: -30px;
+}
+
+.merch-imagecontainer {
+  height: 200px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.merch-imagecontainer-cap {
+  height: 170px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.subscription-title-wrapper {
+  margin-bottom: 50px;
+  display: flex;
+}
+.merch-titlecontainer {
+  color: #fff;
+  font-family: montserrat-regular;
+  margin-right: 10px;
+  font-size: 1.5rem;
+}
+.merch-titlecontainer2 {
+  color: #ff4d15;
+  font-family: montserrat-regular;
+  font-size: 1.5rem;
+}
+.merch-imagecontainer:hover {
+  height: 250px;
+  transition: 0.5s;
+}
+.merch-imagecontainer-cap:hover {
+  height: 200px;
+  transition: 0.5s;
+}

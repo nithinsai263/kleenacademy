@@ -1,0 +1,5 @@
+.sidebar {
+  height: auto !important;
+  z-index: 2;
+  font-family: sans-serif;
+}

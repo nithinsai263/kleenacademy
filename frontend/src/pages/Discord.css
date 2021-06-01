@@ -1,0 +1,75 @@
+@font-face {
+  src: url("./assets/Poppins-Regular.ttf");
+  font-family: poppins-regular;
+}
+@font-face {
+  src: url("./assets/Montserrat-Regular.ttf");
+  font-family: montserrat-regular;
+}
+.discord-parent-container {
+  padding: 50px 30px 120px 30px;
+  background-color: black;
+}
+.discord-title-container {
+  display: flex;
+  margin-bottom: 15px;
+}
+.discord-title-text1 {
+  color: #fff;
+  margin-right: 10px;
+  font-family: montserrat-regular;
+}
+.discord-title-text2 {
+  color: #ff4d15;
+  font-family: montserrat-regular;
+}
+
+.Discord-image-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 35px;
+}
+.Discord-image {
+  height: 150px;
+  width: 150px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.Discord-content-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 35px;
+}
+.Discord-content-text {
+  font-size: 14px;
+  color: #a7a7a7;
+  font-family: poppins-regular;
+  width: 90%;
+}
+.Discord-button-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.Discord-Join_now {
+  height: 40px;
+  width: 200px;
+  color: #4463c9;
+  background-color: black;
+  border: 1px solid #4463c9;
+  border-radius: 7px;
+  cursor: pointer;
+  font-family: montserrat-regular;
+}
+.Discord-Join_now:hover {
+  background-color: #4463c9;
+  color: #fff;
+  border: 0px;
+  transition: 0.5s;
+}
+@media screen and (max-width: 650px) {
+  .Discord-content-text {
+    text-align: justify;
+    font-size: 10px;
+  }
+}

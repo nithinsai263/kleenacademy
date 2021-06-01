@@ -1,0 +1,13 @@
+.gradtag-generic {
+  height: 35px;
+  width: 35px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+@media screen and (max-width: 680px) {
+  .gradtag-generic {
+    height: 30px;
+    width: 30px;
+  }
+}

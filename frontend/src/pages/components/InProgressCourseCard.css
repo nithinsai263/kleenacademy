@@ -1,0 +1,115 @@
+@font-face {
+  src: url("../assets/BebasNeue-Bold.ttf");
+  font-family: bebasneue-bold;
+}
+@font-face {
+  src: url("../assets/Poppins-Regular.ttf");
+  font-family: poppins-regular;
+}
+@font-face {
+  src: url("../assets/Montserrat-Regular.ttf");
+  font-family: montserrat-regular;
+}
+.inProgressCourseCard-parent-container {
+  background-color: #121212;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 30px 20px;
+
+  margin-bottom: 25px;
+}
+.inProgressCourseCard-image-container {
+  height: 200px;
+  width: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  margin-right: 40px;
+}
+.inProgressCourseCard-heading-wrapper {
+  display: flex;
+  margin-bottom: 15px;
+}
+.inProgressCourseCard-heading1 {
+  font-size: 28px;
+  color: #fff;
+  font-family: bebasneue-bold;
+  margin-right: 10px;
+}
+.inProgressCourseCard-heading2 {
+  font-size: 28px;
+  font-family: bebasneue-bold;
+  color: #ff4d15;
+}
+.inProgressCourseCard-content {
+  color: #a7a7a7;
+  font-size: 14px;
+  margin-top: 15px;
+  width: 53vw;
+  font-family: poppins-regular;
+}
+
+.inProgressCourseCard-bottom-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+.inProgressCourseCard-continue-button {
+  width: 100px;
+  height: 33px;
+  background-color: #ff4d15;
+  color: #fff;
+  margin-right: 20px;
+  border: 0px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: montserrat-regular;
+}
+
+.inProgressCourseCard-continue-button:hover {
+  background-color: #fff;
+  color: #000;
+  transition: 0.5s;
+}
+@media screen and (max-width: 1150px) {
+  .inProgressCourseCard-image-container {
+    height: 200px;
+    width: 300px;
+  }
+  .inProgressCourseCard-content {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 950px) {
+  .inProgressCourseCard-content {
+    font-size: 12px;
+    width: 40vw;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .inProgressCourseCard-image-container {
+    margin-right: 0px;
+  }
+  .inProgressCourseCard-responsive-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .inProgressCourseCard-heading-wrapper {
+    margin-top: 20px;
+    width: 100%;
+    justify-content: center;
+  }
+  .inProgressCourseCard-content {
+    width: 88vw;
+    text-align: justify;
+  }
+  .inProgressCourseCard-continue-button {
+    margin-right: -5px;
+  }
+}

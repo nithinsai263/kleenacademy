@@ -1,0 +1,56 @@
+@font-face {
+  src: url("../assets/Montserrat-Regular.ttf");
+  font-family: montserrat-regular;
+}
+.DifficultyTag-easy {
+  height: 20px;
+  width: 50px;
+  background-color: #39903c;
+  color: white;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+  font-family: montserrat-regular;
+}
+.DifficultyTag-medium {
+  height: 20px;
+  width: 50px;
+  background-color: #bcb74a;
+  color: white;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+  font-family: montserrat-regular;
+}
+.DifficultyTag-hard {
+  height: 20px;
+  width: 50px;
+  background-color: #8c212e;
+  color: white;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+  font-family: montserrat-regular;
+}
+.pathcard-bottom-container {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+}
+.pathcard-bottom-subcontainer {
+  display: flex;
+}
+@media screen and (max-width: 650px) {
+  .DifficultyTag-easy {
+    height: 20px;
+    width: 35px;
+    font-size: 9px;
+  }
+}

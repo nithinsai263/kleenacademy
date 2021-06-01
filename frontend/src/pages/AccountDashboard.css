@@ -1,0 +1,212 @@
+@font-face {
+  src: url("./assets/BebasNeue-Bold.ttf");
+  font-family: bebasneue-bold;
+}
+@font-face {
+  src: url("./assets/Poppins-Regular.ttf");
+  font-family: poppins-regular;
+}
+@font-face {
+  src: url("./assets/Montserrat-Regular.ttf");
+  font-family: montserrat-regular;
+}
+
+canvas {
+  position: absolute;
+
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.dashboard-main-container {
+  background-color: #000000;
+}
+
+.dashboard-background-container {
+  background-color: #000;
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: #ffffff;
+}
+
+.dashboard-account-logo {
+  width: 120px;
+  height: 120px;
+  background-image: url("./images/profile.png");
+  background-size: contain;
+}
+.dashboard-name-text {
+  margin-top: 5px;
+  font-size: 18px;
+  font-family: montserrat-regular;
+  font-weight: 700;
+}
+.dashboard-account-boost {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 7px;
+}
+.dashboard-acoount-boost-number {
+  font-size: 18px;
+  margin-right: 8px;
+  font-family: poppins-regular;
+}
+.dashboard-boost-image {
+  height: 20px;
+  width: 20px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.dashboard-progress-percent1 {
+  font-family: poppins-regular;
+  color: #ff4d15;
+}
+.dashboard-progress-percent2 {
+  font-family: poppins-regular;
+  color: #39903c;
+}
+.dashboard-progress-percent3 {
+  font-family: poppins-regular;
+  color: #485aff;
+}
+.dashboard-progress-text3 {
+  font-size: 12px;
+  font-family: montserrat-regular;
+  padding-top: 5px;
+  text-align: center;
+  color: #485aff;
+}
+.dashboard-progress-text2 {
+  font-size: 12px;
+  font-family: montserrat-regular;
+  padding-top: 5px;
+  text-align: center;
+  color: #39903c;
+}
+.dashboard-progress-text1 {
+  font-size: 12px;
+  font-family: montserrat-regular;
+  padding-top: 5px;
+  text-align: center;
+  color: #ff4d15;
+}
+.dashboard-wishlist-container {
+  display: flex;
+  overflow-x: auto;
+}
+
+.dashboard-wishlist-text {
+  color: #ffffff;
+  padding: 10px;
+  margin-left: 20px;
+  margin-bottom: 25px;
+  margin-top: 50px;
+  font-size: 24px;
+
+  font-family: montserrat-regular;
+}
+
+.dashboard-progress-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: -60px;
+}
+
+.dashboard-progress-percentage {
+  height: 125px;
+  width: 125px;
+  border-radius: 50%;
+  display: flex;
+  background-color: #0f0f0f;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+  color: #ffffff;
+}
+
+.dashboard-badges-container {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #ffffff;
+  font-family: poppins-regular;
+}
+
+.dashboard-badges-container2 {
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.dashboard-progress-background1 {
+  background-image: url("./images/orangesheild.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 62px;
+  width: 54px;
+  margin-left: 4px;
+}
+.dashboard-progress-background2 {
+  background-image: url("./images/greensheild.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 62px;
+  width: 54px;
+  margin-left: 7px;
+}
+.dashboard-progress-background3 {
+  background-image: url("./images/purplesheild.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 62px;
+  width: 54px;
+}
+@media screen and (max-width: 650px) {
+  .dashboard-progress-percentage {
+    height: 90px;
+    width: 90px;
+  }
+  .dashboard-progress-background1,
+  .dashboard-progress-background2,
+  .dashboard-progress-background3 {
+    height: 50px;
+    width: 50px;
+    background-size: contain;
+  }
+  .dashboard-progress-percent1,
+  .dashboard-progress-percent2,
+  .dashboard-progress-percent3 {
+    font-size: 12px;
+  }
+  .dashboard-account-logo {
+    height: 100px;
+    width: 100px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .dashboard-background-container {
+    height: 35vh;
+  }
+}
